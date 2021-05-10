@@ -45,7 +45,6 @@ for i in namelist:
     if count>1:
         a = i.get_text().split()
 LIST = [a[-55],a[-49],a[-43],a[-37],a[-31],a[-25],a[-19],a[-13],a[-7],a[-1]]
-print(LIST)
 x=[1,2,3,4,5,6,7,8,9,10]
 year=["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020"]
 plt.plot(x,LIST,label='me',color='b')
